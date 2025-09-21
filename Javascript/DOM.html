@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading">Hello world</h1>
+    <button onclick="changeText()">click me</button>
+
+    <button onclick="changebg()">change background</button>
+
+<script>
+
+    function changeText(){
+        const heading1 = document.getElementById("heading")
+        heading1.textContent="you clicked the button"
+    }
+
+    function changebg(){
+        document.body.style.backgroundColor="lightblue"
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+<div>
+    <h1 id="heading">hello ,im new</h1>
+    <button onclick="changeText()">click to change text</button>
+    <button onclick="changeBG()">click to change bg color</button>
+</div>
+
+<script>
+function changeText(){
+    const head = document.getElementById('heading')
+    head.textContent='my text content changed'
+}
+
+function changeBG(){
+
+document.body.style.backgroundColor = 'lightblue'
+}
+
+</script>
